@@ -16,7 +16,7 @@
 """A setuptools based setup module.
 
 See:
-https://packaging.python.org/en/latest/distributing.html
+https://packaging.python.org/guides/distributing-packages-using-setuptools/
 https://github.com/pypa/sampleproject
 """
 import pathlib
@@ -30,7 +30,7 @@ with here.joinpath('README.rst').open(encoding='utf-8') as fh:
 
 setup(
     name='plyara',
-    version='2.0.1',
+    version='2.0.2',
     description='Parse YARA rules.',
     long_description=long_description,
     url='https://github.com/plyara/plyara',
